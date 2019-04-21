@@ -21,6 +21,6 @@ resource "azurerm_container_registry" "acr" {
   name                     = "${var.ACRName}"
   resource_group_name      = "${azurerm_resource_group.presentation.name}"
   location                 = "${azurerm_resource_group.presentation.location}"
-  sku                      = "${var.sku}"
+  sku                      = "${var.Sku}"
   admin_enabled            = "False"
   }
